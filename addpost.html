@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="jquery/dist/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="addpost">
+	<h3>Add Post</h3>
+	<form name="add_form" method="post" action="blog">
+	<div class="form-group">
+
+	<label class="col-xs-offset-3 col-xs-2">Title</label><input  class="col-xs-offset-2" type="text" name="addtitle" id="add_title">
+	</div>
+
+	<div class="form-group">
+
+	<label class="col-xs-offset-3 col-xs-2">Description</label><textarea name="text" class="col-xs-offset-2" id="text"></textarea>
+	</div>
+	<div class="form-group">
+
+	<label class="col-xs-offset-3 col-xs-2">Date of creation</label><input  class="col-xs-offset-2" type="date" name="date">
+	</div>
+
+	<div class="form-group">
+
+	<label class="col-xs-offset-3 col-xs-2">Author</label><input class="col-xs-offset-2" type="text" name="author">
+	 
+	</div>
+	<input type="submit" value="submit" id="sub"> 
+	</form>
+	</section>
+</body>
+</html>
